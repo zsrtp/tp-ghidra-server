@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [deploy-terraform]
     steps:
-    - name: "Deploy Terraform"
-      run: |
-        terraform init
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+    - run: 
+    - name: "Sync Users"
+      run: python manage-users.py
