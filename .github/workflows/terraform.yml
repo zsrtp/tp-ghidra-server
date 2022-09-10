@@ -22,8 +22,8 @@ jobs:
           mv terraform.tfvars backend.tf ghidra-terraform-module/ && cd ghidra-terraform-module
           terraform init
           terraform apply -auto-approve
-  create-users:
-    runs-on: ubuntu-latest
-    needs: [deploy-terraform]
-    steps:
-      run: echo "finish"
+  # create-users:
+  #   runs-on: ubuntu-latest
+  #   needs: [deploy-terraform]
+  #   steps:
+  #     run: echo "finish"
