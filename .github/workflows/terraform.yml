@@ -16,7 +16,7 @@ jobs:
       - uses: hashicorp/setup-terraform@v2
         with:
           terraform_version: 1.2.6
-        run: |
+      - run: |
           git clone https://github.com/pheenoh/ghidra-terraform-module.git?ref=1.0.0
           mv terraform.tfvars backend.tf ghidra-terraform-module/ && cd ghidra-terraform-module
           terraform init
