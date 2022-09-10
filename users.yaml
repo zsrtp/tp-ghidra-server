@@ -1,0 +1,5 @@
+users:
+- ghidraName: pheenoh
+  permissions: [read-only,read-write,admin]
+- ghidraName: kipcode
+  permissions: [read-write]
