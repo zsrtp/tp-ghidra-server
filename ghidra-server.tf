@@ -6,5 +6,5 @@ module "ghidra" {
   aws_create_dns_record = true
   aws_dns_zone_name     = "tpgz.io"
   aws_dns_record_name   = "newghidra"
-  ghidra_version        = "10.0"
+  ghidra_version        = "10.1.5"
 }
