@@ -1,5 +1,5 @@
 module "ghidra" {
-  source                     = "git::https://github.com/pheenoh/ghidra-terraform-module.git?ref=1.1.2"
+  source                     = "git::https://github.com/pheenoh/ghidra-terraform-module.git?ref=1.1.3"
   aws_region                 = "us-east-2"
   aws_create_networking      = false
   aws_subnet_id              = "subnet-0936e10d4096f910b"
