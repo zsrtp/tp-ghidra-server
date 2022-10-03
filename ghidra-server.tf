@@ -9,5 +9,5 @@ module "ghidra" {
   ghidra_uri_override        = "https://pheenoh-tp-community.s3.us-east-2.amazonaws.com/ghidra_10.2_DEV_20221002_linux_x86_64.zip"
   ghidra_zip_file_name       = "ghidra_10.2_DEV_20221002_linux_x86_64.zip"
   ghidra_extract_folder_name = "ghidra_10.2_DEV"
-  java_download_uri          = "wget https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz"
+  # java_download_uri          = "wget https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz"
 }
