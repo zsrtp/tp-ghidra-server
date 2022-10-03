@@ -19,7 +19,7 @@ jobs:
     - name: "Deploy Terraform"
       run: |
         terraform init
-        terraform destroy -auto-approve
+        terraform apply -auto-approve
   create-users:
     runs-on: ubuntu-latest
     needs: [deploy-terraform]
