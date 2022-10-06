@@ -1,5 +1,5 @@
-users:
+### Example usage:
+### ghidraName: <your-username>
+### permissions: <your-permission> (should be one of: read-only, write, admin)
 - ghidraName: pheenoh
-  permissions: [read-only,read-write,admin]
-- ghidraName: kipcode
-  permissions: [read-write]
+  permissions: admin
