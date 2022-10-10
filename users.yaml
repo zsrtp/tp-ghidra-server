@@ -45,5 +45,3 @@
   permissions: write
 - ghidraName: Fig
   permissions: write
-- ghidraName: Jasper
-  permissions: write
