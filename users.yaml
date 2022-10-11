@@ -1,6 +1,6 @@
 ### Example usage:
 ### ghidraName: <your-username>
-### permissions: <your-permission> (should be one of: read-only-only, write, admin)
+### permissions: <your-permission> (should be one of: read-only, write, admin)
 - ghidraName: pheenoh
   permissions: admin
 - ghidraName: dragonbane
