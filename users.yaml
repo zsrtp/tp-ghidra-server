@@ -1,6 +1,6 @@
 ### Example usage:
 ### ghidraName: <your-username>
-### permissions: <your-permission> (should be one of: read-only, write, admin)
+### permissions: <your-permission> (should be one of: read-only-only, write, admin)
 - ghidraName: pheenoh
   permissions: admin
 - ghidraName: dragonbane
@@ -20,26 +20,26 @@
 - ghidraName: kipcode66
   permissions: write
 - ghidraName: zephiles
-  permissions: read
+  permissions: read-only
 - ghidraName: LunarSoap
-  permissions: read
+  permissions: read-only
 - ghidraName: ethan
-  permissions: read
+  permissions: read-only
 - ghidraName: AECX
-  permissions: read
+  permissions: read-only
 - ghidraName: crowell
-  permissions: read
+  permissions: read-only
 - ghidraName: SpectreCular
-  permissions: read
+  permissions: read-only
 - ghidraName: Bruggles
-  permissions: read
+  permissions: read-only
 - ghidraName: theo3
-  permissions: read
+  permissions: read-only
 - ghidraName: isaac
-  permissions: read
+  permissions: read-only
 - ghidraName: CelestialAmber
-  permissions: read
+  permissions: read-only
 - ghidraName: Psi-Hate
-  permissions: read
+  permissions: read-only
 - ghidraName: Fig
-  permissions: read
+  permissions: read-only
