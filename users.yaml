@@ -5,29 +5,11 @@
   permissions: admin
 - ghidraName: dragonbane
   permissions: admin
-- ghidraName: zephiles
-  permissions: write
-- ghidraName: LunarSoap
-  permissions: write
+- ghidraName: Taka
+  permissions: admin
 - ghidraName: lioncache
   permissions: write
-- ghidraName: ethan
-  permissions: write
-- ghidraName: AECX
-  permissions: write
 - ghidraName: jdflyer
-  permissions: write
-- ghidraName: crowell
-  permissions: write
-- ghidraName: SpectreCular
-  permissions: write
-- ghidraName: Taka
-  permissions: write
-- ghidraName: Devil6Lair
-  permissions: write
-- ghidraName: kipcode66
-  permissions: write
-- ghidraName: Bruggles
   permissions: write
 - ghidraName: Julgodis
   permissions: write
@@ -35,13 +17,29 @@
   permissions: write
 - ghidraName: lepelog
   permissions: write
+- ghidraName: kipcode66
+  permissions: write
+- ghidraName: zephiles
+  permissions: read
+- ghidraName: LunarSoap
+  permissions: read
+- ghidraName: ethan
+  permissions: read
+- ghidraName: AECX
+  permissions: read
+- ghidraName: crowell
+  permissions: read
+- ghidraName: SpectreCular
+  permissions: read
+- ghidraName: Bruggles
+  permissions: read
 - ghidraName: theo3
-  permissions: write
+  permissions: read
 - ghidraName: isaac
-  permissions: write
+  permissions: read
 - ghidraName: CelestialAmber
-  permissions: write
+  permissions: read
 - ghidraName: Psi-Hate
-  permissions: write
+  permissions: read
 - ghidraName: Fig
-  permissions: write
+  permissions: read
