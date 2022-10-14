@@ -6,8 +6,11 @@ module "ghidra" {
   aws_create_dns_record      = true
   aws_dns_zone_name          = "tpgz.io"
   aws_dns_record_name        = "ghidra"
+  aws_instance_type          = "t3.medium"
+  max_java_heap_size         = 2048
   ghidra_uri_override        = "https://pheenoh-tp-community.s3.us-east-2.amazonaws.com/ghidra_10.2_DEV_20221002_linux_x86_64.zip"
   ghidra_zip_file_name       = "ghidra_10.2_DEV_20221002_linux_x86_64.zip"
   ghidra_extract_folder_name = "ghidra_10.2_DEV"
+  ghidra_max_java_heap       = ""
   java_download_uri          = "https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz"
 }
