@@ -43,3 +43,5 @@
   permissions: read-only
 - ghidraName: Fig
   permissions: read-only
+- ghidraName: darkeye
+  permissions: read-only
