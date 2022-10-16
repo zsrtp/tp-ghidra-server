@@ -8,6 +8,16 @@ To add a new user, open a pull request and update the users.yaml file with the n
 
 The password for the new user will be "changeme" and will expire after 24 hours. (We will probably update this process in the future)
 
+## Server Info
+
+Please use this information for first logins to the server:
+
+```
+hostname: ghidra.tpgz.io
+port: 13100
+username : <your_username>
+password: changeme
+
 ## Overview
 
 ```
