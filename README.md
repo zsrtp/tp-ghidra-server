@@ -13,10 +13,11 @@ The password for the new user will be "changeme" and will expire after 24 hours.
 Please use this information for first logins to the server:
 
 ```
-hostname: ghidra.tpgz.io
-port: 13100
-username : <your_username>
-password: changeme
+hostname:  ghidra.tpgz.io
+port:      13100
+username:  <your_username>
+password:  changeme
+```
 
 ## Overview
 
