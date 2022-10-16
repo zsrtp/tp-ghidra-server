@@ -45,3 +45,5 @@
   permissions: read-only
 - ghidraName: darkeye
   permissions: read-only
+- ghidraName: Luzagar
+  permissions: read-only
