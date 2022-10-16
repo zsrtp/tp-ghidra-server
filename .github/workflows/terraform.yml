@@ -22,7 +22,7 @@ jobs:
   #       terraform apply -auto-approve
   manage-users:
     runs-on: ubuntu-latest
-    needs: [deploy-terraform]
+    # needs: [deploy-terraform]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
