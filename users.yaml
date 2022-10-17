@@ -47,3 +47,5 @@
   permissions: read-only
 - ghidraName: Luzagar
   permissions: read-only
+- ghidraName: xayrga
+  permissions: read-only
