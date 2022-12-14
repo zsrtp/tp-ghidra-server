@@ -49,3 +49,5 @@
   permissions: read-only
 - ghidraName: xayrga
   permissions: read-only
+  - ghidraName: trueffel
+  permissions: read-only
