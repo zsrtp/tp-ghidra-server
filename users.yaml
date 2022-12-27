@@ -51,3 +51,5 @@
   permissions: read-only
 - ghidraName: trueffel
   permissions: read-only
+- ghidraName: vertmo
+  permissions: read-only
