@@ -19,6 +19,8 @@
   permissions: write
 - ghidraName: kipcode66
   permissions: write
+- ghidraName: Jasper
+  permissions: write
 - ghidraName: zephiles
   permissions: read-only
 - ghidraName: LunarSoap
