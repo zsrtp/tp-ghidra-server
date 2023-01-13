@@ -57,3 +57,5 @@
   permissions: read-only
 - ghidraName: jihkie
   permissions: read-only
+- ghidraName: hatal175
+  permissions: read-only
