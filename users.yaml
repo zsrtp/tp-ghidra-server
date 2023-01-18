@@ -59,3 +59,6 @@
   permissions: read-only
 - ghidraName: hatal175
   permissions: read-only
+- ghidraName: ae0nium
+  permissions: write
+  
