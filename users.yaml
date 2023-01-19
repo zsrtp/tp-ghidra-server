@@ -61,4 +61,5 @@
   permissions: read-only
 - ghidraName: ae0nium
   permissions: write
-  
+- ghidraName: tempo
+  permissions: read-only
