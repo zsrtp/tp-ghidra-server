@@ -59,5 +59,7 @@
   permissions: read-only
 - ghidraName: hatal175
   permissions: read-only
+- ghidraName: ae0nium
+  permissions: read-only
 - ghidraName: tempo
   permissions: read-only
