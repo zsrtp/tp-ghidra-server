@@ -63,3 +63,5 @@
   permissions: read-only
 - ghidraName: tempo
   permissions: read-only
+- ghidraName: DanTGL
+  permissions: read-only
