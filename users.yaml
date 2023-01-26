@@ -65,3 +65,5 @@
   permissions: read-only
 - ghidraName: DanTGL
   permissions: read-only
+- ghidraName: DRK
+  permissions: read-only
