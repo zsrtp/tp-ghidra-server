@@ -67,3 +67,5 @@
   permissions: read-only
 - ghidraName: DRK
   permissions: read-only
+- ghidraName: Captainkittyca2
+  permissions: write
