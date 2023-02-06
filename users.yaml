@@ -72,4 +72,4 @@
 - ghidraName: Frosty
   permissions: write
 - ghidraName: Yotona
-  permissions: write
+  permissions: read-only
