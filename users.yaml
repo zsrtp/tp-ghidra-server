@@ -52,7 +52,7 @@
 - ghidraName: xayrga
   permissions: read-only
 - ghidraName: trueffel
-  permissions: read-only
+  permissions: write
 - ghidraName: vertmo
   permissions: read-only
 - ghidraName: jihkie
