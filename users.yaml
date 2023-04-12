@@ -73,3 +73,5 @@
   permissions: write
 - ghidraName: Yotona
   permissions: read-only
+- ghidraName: NotaaWizard
+  permissions: read-only
