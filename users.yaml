@@ -79,6 +79,8 @@
   permissions: read-only
 - ghidraName: randomsalience
   permissions: read-only
+- ghidraName: Polaris
+  permissions: read-only
 - ghidraName: pijiuten
   permissions: read-only
 - ghidraName: Madeline
