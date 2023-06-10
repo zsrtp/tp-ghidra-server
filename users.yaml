@@ -85,3 +85,5 @@
   permissions: read-only
 - ghidraName: Madeline
   permissions: write
+- ghidraName: doug
+  permissions: read-only
