@@ -89,3 +89,5 @@
   permissions: read-only
 - ghidraName: spindlymist
   permissions: read-only
+- ghidraName: MrMoffatt
+  permissions: read-only 
