@@ -87,3 +87,5 @@
   permissions: write
 - ghidraName: doug
   permissions: read-only
+- ghidraName: spindlymist
+  permissions: read-only
