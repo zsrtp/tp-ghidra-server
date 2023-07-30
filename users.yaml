@@ -93,3 +93,5 @@
   permissions: read-only 
 - ghidraName: ItzSwirlz
   permissions: read-only
+- ghidraName: minimaleffort
+  permissions: read-only
