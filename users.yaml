@@ -95,3 +95,5 @@
   permissions: read-only
 - ghidraName: minimaleffort
   permissions: read-only
+- ghidraName: yupitsquinn
+  permissions: read-only
