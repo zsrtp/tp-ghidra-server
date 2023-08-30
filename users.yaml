@@ -97,3 +97,6 @@
   permissions: read-only
 - ghidraName: yupitsquinn
   permissions: read-only
+- ghidraName: MrPolymorph
+  permissions: read-only
+  
