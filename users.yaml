@@ -99,4 +99,6 @@
   permissions: read-only
 - ghidraName: MrPolymorph
   permissions: read-only
+- ghidraName: hev7
+  permissions: read-only
   
