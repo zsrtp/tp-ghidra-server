@@ -101,4 +101,5 @@
   permissions: read-only
 - ghidraName: hev7
   permissions: read-only
-  
+- ghidraName: nuss
+  permissions: read-only
