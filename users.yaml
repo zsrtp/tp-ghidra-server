@@ -103,3 +103,5 @@
   permissions: read-only
 - ghidraName: nuss
   permissions: read-only
+- ghidraName: drvelociraptor
+  permissions: read-only
