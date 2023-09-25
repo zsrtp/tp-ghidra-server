@@ -105,3 +105,5 @@
   permissions: read-only
 - ghidraName: drvelociraptor
   permissions: read-only
+- ghidraName: Jake
+  permissions: read-only
