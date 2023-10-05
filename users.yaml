@@ -107,3 +107,5 @@
   permissions: read-only
 - ghidraName: Jake
   permissions: read-only
+- ghidraName: Hexcomm
+  permissions: read-only
