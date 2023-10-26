@@ -109,3 +109,5 @@
   permissions: read-only
 - ghidraName: Hexcomm
   permissions: read-only
+- ghidraName: Darth-Koopa
+  permissions: read-only
