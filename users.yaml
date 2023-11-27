@@ -115,3 +115,5 @@
   permissions: read-only
 - ghidraName: jp
   permissions: read-only
+- ghidraName: klazuka
+  permissions: read-only
