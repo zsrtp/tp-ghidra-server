@@ -117,3 +117,5 @@
   permissions: read-only
 - ghidraName: klazuka
   permissions: read-only
+- ghidraName: NicoSpeedsub
+  permissions: write
