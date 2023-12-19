@@ -119,3 +119,6 @@
   permissions: read-only
 - ghidraName: NicoSpeedsub
   permissions: write
+- ghidraName: hadi
+  permissions: read-only
+  
