@@ -121,4 +121,6 @@
   permissions: write
 - ghidraName: hadi
   permissions: read-only
+- ghidraName: Ainaloser
+  permissions: read-only
   
