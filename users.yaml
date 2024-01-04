@@ -123,4 +123,6 @@
   permissions: read-only
 - ghidraName: Ainaloser
   permissions: read-only
+- ghidraName: Cardinal
+  permissions: read-only
   
