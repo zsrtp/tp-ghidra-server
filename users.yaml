@@ -127,4 +127,5 @@
   permissions: read-only
   ghidraName: JackTFB
   permissions: read-only
-  
+- ghidraName: rikool050
+  permissions: read-only
