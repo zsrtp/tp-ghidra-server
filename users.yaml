@@ -125,4 +125,6 @@
   permissions: read-only
 - ghidraName: Cardinal
   permissions: read-only
+  ghidraName: JackTFB
+  permissions: read-only
   
