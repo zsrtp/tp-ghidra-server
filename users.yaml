@@ -129,5 +129,7 @@
   permissions: read-only
 - ghidraName: rikool050
   permissions: read-only
-  ghidraName: wishful1
+- ghidraName: traditionallimb
+  permissions: read-only
+- ghidraName: wishful1
   permissions: read-only
