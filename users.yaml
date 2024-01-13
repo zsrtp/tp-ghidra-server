@@ -131,3 +131,5 @@
   permissions: read-only
 - ghidraName: traditionallimb
   permissions: read-only
+- ghidraName: Seti
+  permissions: read-only
