@@ -133,3 +133,5 @@
   permissions: read-only
 - ghidraName: Seti
   permissions: read-only
+- ghidraName: wishful1
+  permissions: read-only
