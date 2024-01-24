@@ -135,3 +135,5 @@
   permissions: read-only
 - ghidraName: wishful1
   permissions: read-only
+- ghidraName: rednc325
+  permissions: read-only
