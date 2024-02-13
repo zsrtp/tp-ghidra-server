@@ -139,3 +139,5 @@
   permissions: read-only
 - ghidraName: LinkHpp
   permissions: read-only
+- ghidraName: tashi
+  permissions: read-only
