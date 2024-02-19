@@ -143,3 +143,5 @@
   permissions: read-only
 - ghidraName: Ookami
   permissions: read-only
+- ghidraName: Esperiel
+  permissions: read-only
