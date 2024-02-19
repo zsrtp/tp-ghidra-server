@@ -141,3 +141,5 @@
   permissions: read-only
 - ghidraName: tashi
   permissions: read-only
+- ghidraName: Ookami
+  permissions: read-only
