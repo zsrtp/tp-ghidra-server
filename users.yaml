@@ -149,3 +149,5 @@
   permissions: read-only
 - ghidraName: mlysle
   permissions: read-only
+- ghidraName: Sora
+  permissions: read-only
