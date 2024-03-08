@@ -151,3 +151,5 @@
   permissions: read-only
 - ghidraName: Sora
   permissions: read-only
+- ghidraName: Vater
+  permissions: read-only
