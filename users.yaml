@@ -153,3 +153,5 @@
   permissions: read-only
 - ghidraName: Vater
   permissions: read-only
+- ghidraName: pogonieae
+  permissions: read-only
