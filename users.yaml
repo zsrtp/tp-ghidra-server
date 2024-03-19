@@ -157,3 +157,5 @@
   permissions: read-only
 - ghidraName: roxi
   permissions: read-only
+- ghidraName: PurityLake
+  permissions: read-only
