@@ -159,3 +159,5 @@
   permissions: read-only
 - ghidraName: PurityLake
   permissions: read-only
+- ghidraName: mar
+  permissions: read-only
