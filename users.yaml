@@ -165,4 +165,5 @@
   permissions: read-only
 - ghidraName: Badfoxrox
   permissions: read-only
-  
+- ghidraName: pheenoh-test2
+  permissions: admin
