@@ -267,8 +267,8 @@ def manage_users(dry_run=False):
             source_control_users = yaml.safe_load(stream)
 
             rm_users = remove_ghidra_users(ghidra_server_users,source_control_users,dry_run)
-            update_users = update_ghidra_users(ghidra_server_users,source_control_users,dry_run)
             add_users = add_ghidra_users(ghidra_server_users,source_control_users,dry_run)
+            update_users = update_ghidra_users(ghidra_server_users,source_control_users,dry_run)
 
             if dry_run:
                 if rm_users > 0 or update_users > 0:
