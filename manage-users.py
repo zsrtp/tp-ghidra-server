@@ -267,7 +267,7 @@ def manage_users(dry_run=False):
             if dry_run:
                 if rm_users > 0 or update_users > 0:
                     sys.exit(1)
-                elif add_users > 0:
+                elif add_users["num_users"] > 0:
                     for permission in add_users["permissions"]:
                         if permission in ["write", "admin"]:
                             sys.exit(1)
