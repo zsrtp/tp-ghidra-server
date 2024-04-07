@@ -1,0 +1,27 @@
+permissions:
+  id-token: write
+  contents: read
+on:
+  pull_request:
+    branches:
+    - main
+    paths:
+    - 'users.yaml'
+jobs:
+  sync-users-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+        aws-region: us-east-2
+    - name: "Install dependencies"
+      run: pip3 install -r requirements.txt
+    - name: "Sync Users Check"
+      run: |
+        python manage-users.py --dry-run
