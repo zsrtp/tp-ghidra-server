@@ -153,7 +153,7 @@ def remove_ghidra_users(current_users,yaml_users,dry_run):
 
     ret_users = 0
 
-    users_to_remove = [ghidra_user for ghidra_user in current_users.keys() if ghidra_user not in yaml_users["ghidraName"]]
+    users_to_remove = [ghidra_user for ghidra_user in current_users.keys() if all(ghidra_user != user.get('ghidraName') for user in yaml_users)]
 
     
     print("Current users:", current_users)
