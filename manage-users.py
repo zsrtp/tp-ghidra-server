@@ -160,7 +160,7 @@ def remove_ghidra_users(current_users,yaml_users,dry_run):
         print(ghidra_user, "isn't in the source control list anymore. Removing...",end='')
 
         if not dry_run:
-            # remove_user(ghidra_user)
+            remove_user(ghidra_user)
             print("Done.")
         else:
             print("Dry run mode. Skipping.")
@@ -190,7 +190,7 @@ def update_ghidra_users(current_users,yaml_users,dry_run):
         if curr_yaml_name in current_users.keys() and current_users[curr_yaml_name] != curr_yaml_perm:
             print("User", curr_yaml_name, "permissions don't match. Updating...", end='')
             if not dry_run:
-                # check_and_set_permission(curr_yaml_name, curr_yaml_perm)
+                check_and_set_permission(curr_yaml_name, curr_yaml_perm)
                 print("Done.")
             else:
                 print("Dry run mode. Skipping.")
@@ -227,7 +227,7 @@ def add_ghidra_users(current_users,yaml_users,dry_run):
         print("User", ghidra_user["ghidraName"],
                 "doesn't exist. Creating...", end='')
         if not dry_run:
-            # add_user(ghidra_user["ghidraName"])
+            add_user(ghidra_user["ghidraName"])
             print("Done.")
         else:
             print("Dry run mode. Skipping.")
