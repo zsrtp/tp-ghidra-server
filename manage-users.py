@@ -153,7 +153,7 @@ def remove_ghidra_users(current_users,yaml_users,dry_run):
 
     ret_users = 0
 
-    users_to_remove = ghidra_user in current_users.keys() if ghidra_user not in yaml_users else []
+    users_to_remove = [ghidra_user for ghidra_user in current_users.keys() if ghidra_user not in yaml_users]
 
     # Remove any users that are no longer in the source control list
     for ghidra_user in users_to_remove:
@@ -181,7 +181,6 @@ def update_ghidra_users(current_users,yaml_users,dry_run):
     ret_users - The number of users that will be updated.
     """
 
-    # dict to track num users to update
     ret_users = 0
 
     for i in range(len(yaml_users)):
