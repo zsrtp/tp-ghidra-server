@@ -155,12 +155,6 @@ def remove_ghidra_users(current_users,yaml_users,dry_run):
 
     users_to_remove = [ghidra_user for ghidra_user in current_users.keys() if all(ghidra_user != user.get('ghidraName') for user in yaml_users)]
 
-    
-    print("Current users:", current_users)
-    print("YAML users:", yaml_users)
-    print("Users to remove:", users_to_remove)
-    sys.exit(1)
-
     # Remove any users that are no longer in the source control list
     for ghidra_user in users_to_remove:
         print(ghidra_user, "isn't in the source control list anymore. Removing...",end='')
@@ -228,7 +222,12 @@ def add_ghidra_users(current_users,yaml_users,dry_run):
     }
 
     # list comprehension to grab the user:permission pairs that appear in yaml_users but not in current_users
-    users_to_add = [ghidra_user for ghidra_user in yaml_users if ghidra_user["ghidraName"] not in current_users.keys()]
+    users_to_add = [user for user in yaml_users if user.get('ghidraName') not in current_users.keys()]
+
+    print("Current users:", current_users)
+    print("YAML users:", yaml_users)
+    print("Users to add:", users_to_add)
+    sys.exit(1)
 
     for ghidra_user in users_to_add:
         print("User", ghidra_user["ghidraName"],
