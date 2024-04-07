@@ -163,5 +163,6 @@
   permissions: read-only
 - ghidraName: mloughnane
   permissions: read-only
-  ghidraName: Badfoxrox
+- ghidraName: Badfoxrox
   permissions: read-only
+  
