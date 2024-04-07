@@ -223,11 +223,6 @@ def add_ghidra_users(current_users,yaml_users,dry_run):
     # list comprehension to grab the user:permission pairs that appear in yaml_users but not in current_users
     users_to_add = [user for user in yaml_users if user.get('ghidraName') not in current_users.keys()]
 
-    print("Current users:", current_users)
-    print("YAML users:", yaml_users)
-    print("Users to add:", users_to_add)
-    sys.exit(1)
-
     for ghidra_user in users_to_add:
         print("User", ghidra_user["ghidraName"],
                 "doesn't exist. Creating...", end='')
