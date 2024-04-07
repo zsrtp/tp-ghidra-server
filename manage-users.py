@@ -187,8 +187,7 @@ def update_ghidra_users(current_users,yaml_users,dry_run):
         curr_yaml_name = yaml_users[i]["ghidraName"]
         curr_yaml_perm = (yaml_users[i]["permissions"]).lower()
 
-        # Check if any user permissions need to be updated
-        if current_users[curr_yaml_name] != curr_yaml_perm:
+        if curr_yaml_name in current_users.keys() and current_users[curr_yaml_name] != curr_yaml_perm:
             print("User", curr_yaml_name, "permissions don't match. Updating...", end='')
             if not dry_run:
                 # check_and_set_permission(curr_yaml_name, curr_yaml_perm)
@@ -267,8 +266,8 @@ def manage_users(dry_run=False):
             source_control_users = yaml.safe_load(stream)
 
             rm_users = remove_ghidra_users(ghidra_server_users,source_control_users,dry_run)
-            add_users = add_ghidra_users(ghidra_server_users,source_control_users,dry_run)
             update_users = update_ghidra_users(ghidra_server_users,source_control_users,dry_run)
+            add_users = add_ghidra_users(ghidra_server_users,source_control_users,dry_run)
 
             if dry_run:
                 if rm_users > 0 or update_users > 0:
