@@ -165,4 +165,6 @@
   permissions: read-only
 - ghidraName: Badfoxrox
   permissions: read-only
+- ghidraName: Nyxx
+  permissions: read-only
   
