@@ -169,3 +169,5 @@
   permissions: read-only
 - ghidraName: doop
   permissions: read-only
+- ghidraName: snowin
+  permissions: read-only
