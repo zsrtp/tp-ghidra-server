@@ -167,4 +167,5 @@
   permissions: read-only
 - ghidraName: Nyxx
   permissions: read-only
-  
+- ghidraName: doop
+  permissions: read-only
