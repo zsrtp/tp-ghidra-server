@@ -173,3 +173,5 @@
   permissions: read-only
 - ghidraName: SSLinebeck
   permissions: read-only
+- ghidraName: pheenoh-test
+  permissions: read-only
