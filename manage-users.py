@@ -160,7 +160,8 @@ def remove_ghidra_users(current_users,yaml_users,dry_run):
         print(ghidra_user, "isn't in the source control list anymore. Removing...",end='')
 
         if not dry_run:
-            remove_user(ghidra_user)
+            # Commenting this out for now
+            # remove_user(ghidra_user)
             print("Done.")
         else:
             print("Dry run mode. Skipping.")
@@ -266,6 +267,7 @@ def manage_users(dry_run=False):
 
             if dry_run:
                 if rm_users > 0 or update_users > 0:
+                    print("Users are being updated or deleted. Failing automerge check!")
                     sys.exit(1)
                 elif add_users["num_users"] > 0:
                     for permission in add_users["permissions"]:
