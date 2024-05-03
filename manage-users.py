@@ -236,7 +236,7 @@ def add_ghidra_users(current_users,yaml_users,dry_run):
         print("Setting permissions for", ghidra_user["ghidraName"] + "...", end='')
 
         if not dry_run:
-            # check_and_set_permission(ghidra_user["ghidraName"], ghidra_user["permissions"])
+            check_and_set_permission(ghidra_user["ghidraName"], ghidra_user["permissions"])
             print("Done.")
         else:
             print("Dry run mode. Skipping.")
