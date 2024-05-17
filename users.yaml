@@ -177,3 +177,5 @@
   permissions: read-only
 - ghidraName: wins1ey
   permissions: read-only
+- ghidraName: zen64
+  permissions: read-only
