@@ -1,3 +1,16 @@
+# THIS SERVER HAS BEEN MOVED
+
+Please read carefully. This server has been moved to `ghidra.decomp.dev`.
+
+- If you **already** have an account on both `ghidra.decomp.dev` and `ghidra.tpgz.io` - sign in with your `ghidra.decomp.dev` username and password. Your permissions to the project will remain the same.
+- If you **only** have an account on `ghidra.tpgz.io` - please sign in using your `ghidra.tpgz.io` credentials to the new server. The easiest way to do this is to add a new shared project:
+  1. File
+  2. New Project...
+  3. Shared Project
+  4. Server Name: `ghidra.decomp.dev`, Port Number: `13100`
+  5. Select TwilightPrincess
+- If you **don't** have an account on either server **or** if you've forgotten your login credentials - send a DM to `encounter` on Discord and request an account / credential reset for the TwilightPrincess repo.
+
 ## TP Community Ghidra Server
 
 Ghidra server automation for the TP Speedrun and Decomp communities.
